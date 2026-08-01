@@ -728,6 +728,10 @@ body {
   .hero { padding: 24px 0; }
   .download-hero__inner { grid-template-columns: 1fr; gap: 20px; text-align: center; }
   .badge, .hero__actions, .hero__meta { display: none; }
+  .hero__title, .hero__subtitle { color: #111; }
+  .hero__accent { background: none; -webkit-background-clip: initial; background-clip: initial; color: #111; }
   .qr-card { box-shadow: none; border: 1.5px solid #999; page-break-inside: avoid; }
   .qr-card img { width: 260px; height: 260px; }
+  /* A impressão é para o cartão de QR codes — oculta a seção de instalação */
+  #instalar { display: none !important; }
 }
