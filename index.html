@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visual Evidence — Evidência fotográfica profissional</title>
+  <meta name="description" content="Visual Evidence é o app de relatórios fotográficos para inspeção e manutenção. Fotografe no local, anote, assine digitalmente e exporte em PDF profissional — 100% offline, direto do seu celular." />
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Barra de navegação -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="nav__brand" aria-label="Visual Evidence — início">
+        <span class="nav__logo">📸</span>
+        <span class="nav__name">Visual <strong>Evidence</strong></span>
+      </a>
+      <nav class="nav__menu" id="menu" aria-label="Navegação principal">
+        <a href="#recursos" class="nav__link">Recursos</a>
+        <a href="#checklists" class="nav__link">Checklists</a>
+        <a href="#como-funciona" class="nav__link">Como funciona</a>
+        <a href="#publico" class="nav__link">Público</a>
+        <a href="#contato" class="nav__link">Contato</a>
+        <a href="downloads/VisualEvidence-v1.0.apk" class="btn btn--primary nav__cta" download>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Baixar APK
+        </a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge">📱 Android 5.0+ · 100% offline</span>
+          <h1 class="hero__title">
+            Fotografe.<br />
+            <span class="hero__accent">Evidencie.</span><br />
+            Documente.
+          </h1>
+          <p class="hero__subtitle">
+            O <strong>Visual Evidence</strong> transforma o seu celular em uma ferramenta completa de
+            documentação técnica. Relatórios fotográficos profissionais para inspeções, manutenções e
+            vistorias — prontos para entregar, mesmo sem internet.
+          </p>
+          <div class="hero__actions">
+            <a href="downloads/VisualEvidence-v1.0.apk" class="btn btn--primary btn--lg" download>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Baixar agora
+            </a>
+            <a href="#como-funciona" class="btn btn--ghost btn--lg">
+              Ver como funciona
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+          <ul class="hero__meta">
+            <li><span>✓</span> Sem internet</li>
+            <li><span>✓</span> PDF profissional</li>
+            <li><span>✓</span> Assinatura digital (Anexo R)</li>
+            <li><span>✓</span> Backup .vebin</li>
+          </ul>
+        </div>
+
+        <div class="hero__phone" aria-hidden="true">
+          <div class="phone">
+            <div class="phone__notch"></div>
+            <div class="phone__screen">
+              <div class="phone__header">
+                <span>Atestado de conformidade</span>
+                <span class="phone__pill">Anexo R</span>
+              </div>
+              <div class="phone__photo">
+                <span class="phone__pin phone__pin--1"></span>
+                <span class="phone__pin phone__pin--2"></span>
+                <span class="phone__label">Instalação elétrica — Pav. 2</span>
+              </div>
+              <div class="phone__rows">
+                <div class="phone__row"><span class="phone__dot"></span><i style="width:70%"></i></div>
+                <div class="phone__row"><span class="phone__dot"></span><i style="width:52%"></i></div>
+                <div class="phone__row"><span class="phone__dot"></span><i style="width:64%"></i></div>
+              </div>
+              <div class="phone__sign">
+                <span>Assinatura do responsável</span>
+                <svg viewBox="0 0 200 40" width="150" height="30"><path d="M10 30 C 40 8, 60 34, 90 18 S 150 8, 190 14" fill="none" stroke="#1d4ed8" stroke-width="2.5" stroke-linecap="round"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="hero__float hero__float--pdf">📄 PDF pronto</div>
+          <div class="hero__float hero__float--offline">📶 Funciona offline</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recursos -->
+    <section class="section" id="recursos">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__tag">Recursos</span>
+          <h2 class="section__title">Tudo o que você precisa para <span class="text-accent">evidenciar cada detalhe</span></h2>
+          <p class="section__sub">Feito para o trabalho de campo: simples de usar com uma mão, completo no resultado.</p>
+        </div>
+
+        <div class="features">
+          <article class="feature reveal">
+            <div class="feature__icon">📷</div>
+            <h3>Fotos pela câmera ou galeria</h3>
+            <p>Registro imediato no local do serviço, sem depender de internet ou de apps externos.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">✏️</div>
+            <h3>Anotações precisas</h3>
+            <p>Setas, círculos, retângulos, texto e traço livre para apontar exatamente o problema na foto.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">✍️</div>
+            <h3>Assinatura digital (Anexo R)</h3>
+            <p>Exclusiva do relatório Anexo R (IT-41): validação do engenheiro e do responsável, com profissionalismo.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">📄</div>
+            <h3>PDF com o logo da empresa</h3>
+            <p>Exportação profissional e personalizada, pronta para entregar ao cliente.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">⚡</div>
+            <h3>Checklists prontos</h3>
+            <p>Modelos de Não Conformidade (NC), Anexo R (IT-41), Civil, Elétrica, Gerador e Chamado.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">🔄</div>
+            <h3>Backup em .vebin</h3>
+            <p>Exporte e reabra o relatório completo em qualquer dispositivo Android em um único arquivo.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">🔍</div>
+            <h3>Pastas por cliente e busca</h3>
+            <p>Organização simples e acesso rápido a todos os relatórios, mesmo com muitos registros.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">📤</div>
+            <h3>Envio em um toque</h3>
+            <p>Compartilhe as fotos e o relatório por WhatsApp, e-mail ou apps de mensagem.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">🌐</div>
+            <h3>100% offline</h3>
+            <p>Funciona em qualquer lugar — obras, plantas industriais, lojas e ambientes de campo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Checklists -->
+    <section class="section section--alt" id="checklists">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__tag">Checklists prontos</span>
+          <h2 class="section__title">Modelos usados na prática, <span class="text-accent">sem perder tempo</span></h2>
+          <p class="section__sub">O app já vem com os checklists para os tipos de relatório mais comuns no dia a dia.</p>
+        </div>
+
+        <div class="checklists">
+          <article class="checklist checklist--featured reveal">
+            <div class="checklist__icon">📋</div>
+            <h3>Não Conformidade (NC)</h3>
+            <p>Campos estruturados: tipo de desvio, pavimento, criticidade, ação corretiva e muito mais.</p>
+            <ul class="checklist__tags">
+              <li>Tipo de desvio</li>
+              <li>Pavimento</li>
+              <li>Criticidade</li>
+              <li>Ação corretiva</li>
+            </ul>
+          </article>
+          <article class="checklist checklist--featured reveal">
+            <div class="checklist__icon">⚡</div>
+            <h3>Anexo R (IT-41)</h3>
+            <p>Atestado de conformidade das instalações elétricas, com todos os itens da instrução técnica.</p>
+            <ul class="checklist__tags">
+              <li>Instalações elétricas</li>
+              <li>Instrução técnica</li>
+              <li>Conformidade</li>
+              <li>✍️ Assinatura digital</li>
+            </ul>
+          </article>
+          <article class="checklist reveal">
+            <div class="checklist__icon">🏗️</div>
+            <h3>Civil</h3>
+            <p>Inspeções prediais e estruturais com checklist específico para obras e edificações.</p>
+          </article>
+          <article class="checklist reveal">
+            <div class="checklist__icon">🔌</div>
+            <h3>Elétrica</h3>
+            <p>Vistorias de instalações e equipamentos elétricos com itens de verificação dedicados.</p>
+          </article>
+          <article class="checklist reveal">
+            <div class="checklist__icon">⚙️</div>
+            <h3>Gerador</h3>
+            <p>Acompanhamento de manutenção e operação de grupos geradores.</p>
+          </article>
+          <article class="checklist reveal">
+            <div class="checklist__icon">📞</div>
+            <h3>Chamado</h3>
+            <p>Atendimentos técnicos e aberturas de chamado com registro fotográfico completo.</p>
+          </article>
+        </div>
+
+        <p class="section__note">💡 E se nenhum modelo servir? Crie <strong>tipos personalizados</strong> para o seu fluxo.</p>
+      </div>
+    </section>
+
+    <!-- Como funciona -->
+    <section class="section" id="como-funciona">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__tag">Como funciona</span>
+          <h2 class="section__title">Do campo ao relatório final em <span class="text-accent">4 passos</span></h2>
+        </div>
+
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step__num">1</span>
+            <h3>Crie o relatório</h3>
+            <p>Escolha o cliente, o tipo de checklist (NC, Anexo R, Civil…) e comece.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__num">2</span>
+            <h3>Fotografe e anote</h3>
+            <p>Tire fotos no local ou importe da galeria. Marque com setas, círculos e notas.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__num">3</span>
+            <h3>Assine digitalmente (Anexo R)</h3>
+            <p>No relatório Anexo R (IT-41), adicione as assinaturas do engenheiro e do responsável direto no app.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__num">4</span>
+            <h3>Exporte e entregue</h3>
+            <p>Gere o PDF com o logo da empresa ou compartilhe o arquivo .vebin completo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Público -->
+    <section class="section section--alt" id="publico">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__tag">Para quem é</span>
+          <h2 class="section__title">Feito para quem <span class="text-accent">documenta serviço de verdade</span></h2>
+        </div>
+
+        <div class="audience">
+          <article class="audience__card reveal">
+            <div class="audience__icon">🛠️</div>
+            <h3>Manutenção predial e industrial</h3>
+            <p>Equipes que precisam registrar intervenções com evidências claras e organizadas.</p>
+          </article>
+          <article class="audience__card reveal">
+            <div class="audience__icon">👷</div>
+            <h3>Engenheiros e técnicos</h3>
+            <p>Quem emite laudos, atestados e relatórios com validade técnica e apresentação profissional.</p>
+          </article>
+          <article class="audience__card reveal">
+            <div class="audience__icon">🏢</div>
+            <h3>Facility management e inspeção</h3>
+            <p>Empresas que gerenciam ativos e precisam de padronização nos relatórios.</p>
+          </article>
+          <article class="audience__card reveal">
+            <div class="audience__icon">🏗️</div>
+            <h3>Equipes de campo</h3>
+            <p>Profissionais que trabalham em obras e ambientes remotos, sem sinal de internet.</p>
+          </article>
+        </div>
+
+        <!-- CTA -->
+        <div class="cta">
+          <div>
+            <h2 class="cta__title">A prova fotográfica que o seu relatório precisa</h2>
+            <p class="cta__text">Leve e compatível com Android 5.0 ou superior, incluindo aparelhos mais antigos. Instale em segundos.</p>
+          </div>
+          <a href="downloads/VisualEvidence-v1.0.apk" class="btn btn--primary btn--lg" download>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Baixar APK grátis
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section" id="contato">
+      <div class="container container--narrow">
+        <div class="section__head">
+          <span class="section__tag">Contato</span>
+          <h2 class="section__title">Quer saber mais ou <span class="text-accent">falar com a gente?</span></h2>
+          <p class="section__sub">Tem dúvidas, sugestões ou quer uma demonstração para a sua empresa? Mande uma mensagem.</p>
+        </div>
+
+        <form class="contact" id="contactForm" novalidate>
+          <div class="contact__grid">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@empresa.com.br" required />
+            </div>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte para a gente como podemos ajudar…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg contact__submit">
+            Enviar mensagem
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <p class="contact__status" id="contactStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__brand">📸 Visual <strong>Evidence</strong></p>
+        <p class="footer__tag">Fotografe. Evidencie. Documente.</p>
+      </div>
+      <p class="footer__copy">© 2026 Visual Evidence · Relatórios fotográficos profissionais para Android</p>
+    </div>
+  </footer>
+
+  <a href="#inicio" class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
